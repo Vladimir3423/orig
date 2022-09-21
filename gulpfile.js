@@ -2,12 +2,6 @@ const gulp = require('gulp');
 const requireDir = require('require-dir');
 const tasks = requireDir('./tasks');
 
-
-module.exports = function style() {
-	return
-}
-
-exports.hello = tasks.hello;
 exports.style = tasks.style;
 exports.libs_style = tasks.libs_style;
 exports.build_js = tasks.build_js;
